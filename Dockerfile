@@ -28,7 +28,7 @@ COPY --from=builder /app/server server
 
 ENV TZ=Asia/Bangkok
 ENV NODE_ENV=production
-ENV PORT=3000
-EXPOSE 3000
+ENV PORT=80
+EXPOSE 80
 
 CMD ["./server"]
